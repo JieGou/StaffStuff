@@ -19,9 +19,12 @@ namespace StaffStuff
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-
         }
 
+        /// <summary>
+        /// 配置模块目录
+        /// </summary>
+        /// <param name="moduleCatalog"></param>
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
         {
             moduleCatalog.AddModule<ServicesModule>();

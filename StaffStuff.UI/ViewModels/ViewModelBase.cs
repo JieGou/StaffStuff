@@ -3,6 +3,9 @@ using Prism.Regions;
 
 namespace StaffStuff.UI.ViewModels
 {
+    /// <summary>
+    /// ViewModel基类
+    /// </summary>
     public class ViewModelBase : BindableBase, INavigationAware
     {
         protected IRegionManager RegionManager { get; }
@@ -19,12 +22,10 @@ namespace StaffStuff.UI.ViewModels
 
         public virtual void OnNavigatedFrom(NavigationContext navigationContext)
         {
-            
         }
 
         public virtual void OnNavigatedTo(NavigationContext navigationContext)
         {
-            
         }
     }
 }

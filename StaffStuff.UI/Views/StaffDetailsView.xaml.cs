@@ -16,6 +16,7 @@ using System.Windows.Shapes;
 namespace StaffStuff.UI.Views
 {
     /// <summary>
+    /// 员工详细视图View<br/>
     /// Interaction logic for StaffDetailsView.xaml
     /// </summary>
     public partial class StaffDetailsView : UserControl
